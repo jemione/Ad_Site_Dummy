@@ -12,9 +12,9 @@ if(!_adplanCv){_adplanCv=function(cfg){_adplanCv$.push(cfg);};}
 </script>
 <script type="text/javascript" src="//v6ct.testadp.com/adpv6/cv.js/1GCt"></script>
 <script type="text/javascript">
-_adplanCv({ counter: "v6ct.testadp.com/adpv6/cv/1GCt_FD?sales=10000",
-key: "", title: ""
-});
+var _adplanCvConfig = { counter: "v6ct.testadp.com/adpv6/cv/1GCt_FD?sales=10000", key: "", title: "", orders: [] };
+_adplanCvConfig.orders.push({sales: "10000"});
+_adplanCv(_adplanCvConfig);
 </script>
 
 <body>
